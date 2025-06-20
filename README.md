@@ -1,41 +1,60 @@
-# 🧪 Constructor Injection Task (Spring Core)
+# 🌱 Spring Learning Repository
 
-### ✅ Objective
-Demonstrate **Constructor Injection** and **IoC** in Spring Framework using:
-- Two `Book` beans
-- Two `Library` beans
-- `libraryName` set via **setter injection**
+Welcome to my **Spring Framework Learning Repository**!  
+This repo contains practical, hands-on exercises and mini-projects as I explore core concepts of the Spring Framework — from Dependency Injection to Bean Lifecycle management.
 
 ---
 
-### 📦 Structure
-- `Book.java` – POJO for book with title & author
-- `Library.java` – Accepts Book via constructor, libraryName via setter
-- `applicationContext.xml` – Spring configuration
-- `MainApp.java` – Load context and print details
+## 📚 What's Inside?
+
+| Task/Folder Name                | Description                                          |
+|--------------------------------|------------------------------------------------------|
+| `constructor-injection-task/`  | Demonstrates constructor injection & setter injection using XML configuration |
+| *(More coming soon)*           | Bean lifecycle, annotations, Spring Boot, etc.       |
 
 ---
 
-### 🔧 Technologies Used
+## 🧠 Core Concepts Covered
+
+- ✅ Inversion of Control (IoC)
+- ✅ Constructor-based Dependency Injection
+- ✅ Setter-based Dependency Injection
+- ✅ Spring Bean Configuration using XML
+- 🛠️ Upcoming: Bean Lifecycle, Annotation Config, Spring Boot
+
+---
+
+## 🛠️ Technologies Used
+
 - Java 17
-- Spring Core (XML Configuration)
+- Spring Framework (Core)
+- XML Configuration
+- IntelliJ IDEA / Eclipse
+- Git & GitHub
 
 ---
 
-### 💻 Output Example
-Library Name: Central Library
-Book Title: Effective Java
-Author: Joshua Bloch
+## 📈 Goal
 
-Library Name: City Library
-Book Title: Clean Code
-Author: Robert C. Martin
-
+To build a solid foundation in the Spring Framework by mastering its core modules before progressing into **Spring Boot**, **Spring MVC**, and full-stack development with real-world projects.
 
 ---
 
-### 🧠 Concepts Practiced
-- Inversion of Control (IoC)
-- Constructor Injection
-- Setter Injection
-- Spring XML-based configuration
+## 🚀 Next Steps
+
+- ✍️ Add projects for Bean Lifecycle and Scopes
+- 🔁 Explore annotation-based config
+- ⚙️ Move into Spring Boot fundamentals
+
+---
+
+## 🤝 Contributions
+
+This is a personal learning repo. However, if you're learning too and want to collaborate, feel free to connect or fork the repo!
+
+---
+
+## 🧑‍💻 Author
+
+**Suvra Halder**  
+Learning Java + Spring Framework | DSA | Python for Data Science  
